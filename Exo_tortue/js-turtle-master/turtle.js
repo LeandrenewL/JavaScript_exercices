@@ -122,3 +122,27 @@ function poisson(taille_carre, taille_triangle) {
 
 poisson(40, 40);
 */
+
+/*
+function nombre(nbetage) {
+    for (let n = 1; n <= nbetage; n++) {
+        console.log("#".repeat(n));
+    }
+}
+nombre(100);
+nombre(3);
+*/
+
+function nombres(n) {
+    for (let n = 1; n < 101; n++) {
+
+        if (n % 3 === 0) {
+            console.log("fuzz");
+        }
+        else if(n % 5 === 0) {
+            console.log("fizz");
+        }
+        else console.log(n);
+    }
+}
+nombres();
